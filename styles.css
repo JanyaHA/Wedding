@@ -1,0 +1,52 @@
+:root{
+  --primary: #bf9b30;
+}
+
+
+.place-block {
+  display: flex;
+  align-items: center;
+}
+
+.place-block-left {
+  border-right: 3px solid var(--primary);
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.place-block-left-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.day-name-text {
+  font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
+  font-size: 26px;
+  line-height: 20px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+.day-text {
+  color: var(--primary);
+  font-weight: 300;
+  font-size: 90px;
+  line-height: 80px;
+  font-family: Aleo;
+}
+
+.alt-text{
+  font-family: Mukta, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4px;
+}
+
+.year-text{
+  background: var(--primary);
+  color: #fff;
+  padding: 2px 4px;
+}
